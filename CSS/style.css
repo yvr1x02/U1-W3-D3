@@ -1,0 +1,75 @@
+header {
+  text-align: center;
+  color: white;
+  background-color: #1c7ddd;
+  margin: 1em;
+}
+body {
+  margin: 1em;
+  background-color: #80afdf;
+}
+
+.title {
+  font-size: 50px;
+  padding: 1rem;
+}
+
+.title h2 {
+  font-size: 20px;
+  padding: 0.5rem;
+}
+
+.main-menu {
+  text-align: center;
+  padding: 1rem;
+  display: inline;
+}
+.main-menu h2 {
+  color: white;
+  background-color: #1c7ddd;
+  padding: 1rem;
+  font-size: 40px;
+}
+
+#task {
+  width: 800px;
+  height: 30px;
+}
+
+#task-form {
+  background-color: #80afdf;
+  padding: 1em;
+}
+#task-form button {
+  background-color: #1c7ddd;
+  height: 35px;
+  width: 120px;
+}
+
+.list {
+  width: 25%;
+  padding: 1rem;
+  border: 2px solid #1c7ddd;
+  border-radius: 5%;
+  display: inline-block;
+}
+
+.list-style {
+  display: flex;
+  justify-content: space-between;
+}
+
+#task-section {
+  text-align: center;
+  height: 100vh;
+}
+
+.removeBtn {
+  height: 30px;
+  width: 60px;
+  background-color: #1c7ddd;
+}
+
+.cestina {
+  text-decoration: line-through;
+}
